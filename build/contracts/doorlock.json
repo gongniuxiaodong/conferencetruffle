@@ -1,0 +1,49 @@
+{
+  "contract_name": "doorlock",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "getlock",
+      "outputs": [
+        {
+          "name": "state",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "recevier",
+          "type": "address"
+        },
+        {
+          "name": "onoff",
+          "type": "bool"
+        }
+      ],
+      "name": "setlock",
+      "outputs": [
+        {
+          "name": "state",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6101628061001f6000396000f300606060405263ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663b280e9058114610048578063e505da1114610088575b600080fd5b341561005357600080fd5b61007473ffffffffffffffffffffffffffffffffffffffff600435166100cd565b604051901515815260200160405180910390f35b341561009357600080fd5b61007473ffffffffffffffffffffffffffffffffffffffff6004351660243515156100fc565b604051901515815260200160405180910390f35b73ffffffffffffffffffffffffffffffffffffffff811660009081526020819052604090205460ff165b919050565b73ffffffffffffffffffffffffffffffffffffffff82166000908152602081905260409020805460ff191682151517905560015b929150505600a165627a7a7230582035e554d87efabc577370e05a227506e1614cee1b39f39cf906351a348266db400029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1503975238742
+}

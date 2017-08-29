@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <!--<script src="js/app.js"></script>-->
+    <script src="../test/door.js"></script>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>door</title>
+  </head>
+  <body>
+  <div id="all">
+    <form action="/info " method="post">
+      <h1></h1>
+      <p id="errorInfo"><%= errorInfo %></p>
+      <p>ID<input type="text" name="id" id="id" value=""></p>
+      <p>ADDRESS<input type="text" name="addr" id="addr" value=""></p>
+      <p>onoff<input type="text" name="onoff" id="onoff" value=""></p>
+      <p><input type="submit" id="check" value="click">
+    </form>
+  </div>
+
+  </body>
+</html>
